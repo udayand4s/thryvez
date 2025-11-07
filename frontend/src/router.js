@@ -7,6 +7,11 @@ const routes = [
 	{
 		path: '/',
 		name: 'Home',
+		component: () => import('@/pages/Home/MainHome.vue'),
+	},
+	{
+		path: '/learn',
+		name: 'Learn',
 		component: () => import('@/pages/Home/Home.vue'),
 	},
 	{
